@@ -1,12 +1,12 @@
 def standardize(column):
-  """Standardize the values in a column.
+#   Standardize the values in a column.
 
-  Args:
-    column (pandas Series): The data to standardize.
+#   Args:
+#     column (pandas Series): The data to standardize.
 
-  Returns:
-    pandas Series: the values as z-scores
-  """
+#   Returns:
+#     pandas Series: the values as z-scores
+
   # Finish the function so that it returns the z-scores
   z_score = (df - y1_gpa.mean()) / df.y1_gpa.std()
   return z_score
