@@ -1,11 +1,10 @@
 # Add a decorator that will make timer() a context manager
 @contextlib.contextmanager
 def timer():
-  """Time the execution of a context block.
+#   Time the execution of a context block.
 
-  Yields:
-    None
-  """
+#   Yields:
+#     None
   start = time.time()
   # Send control back to the context block
   yield
