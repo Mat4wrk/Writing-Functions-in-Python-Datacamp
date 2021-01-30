@@ -1,13 +1,13 @@
 # Write the mean() function.
 def mean(values):
-  """Get the mean of a list of values
+#   Get the mean of a list of values
 
-  Args:
-    values (iterable of float): A list of numbers
+#   Args:
+#     values (iterable of float): A list of numbers
 
-  Returns:
-    float
-  """
+#   Returns:
+#     float
+
   # Write the mean() function
   mean = sum(values) / len(values)
   return mean
@@ -15,14 +15,14 @@ def mean(values):
   
 # Write the median() function.
 def median(values):
-  """Get the median of a list of values
+#   Get the median of a list of values
 
-  Args:
-    values (iterable of float): A list of numbers
+#   Args:
+#     values (iterable of float): A list of numbers
 
-  Returns:
-    float
-  """
+#   Returns:
+#     float
+
   # Write the median() function
   midpoint = int(len(values) / 2)
   if len(values) % 2 == 0:
