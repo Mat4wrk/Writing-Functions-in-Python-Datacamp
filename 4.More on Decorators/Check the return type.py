@@ -1,4 +1,4 @@
-"""Start by completing the returns_dict() decorator so that it raises an AssertionError if the return type of the decorated function is not a dictionary."""
+# Start by completing the returns_dict() decorator so that it raises an AssertionError if the return type of the decorated function is not a dictionary.
 def returns_dict(func):
   # Complete the returns_dict() decorator
   def wrapper(func):
@@ -17,7 +17,7 @@ except AssertionError:
   print('foo() did not return a dict!')
   
 
-"""Now complete the returns() decorator, which takes the expected return type as an argument."""
+# Now complete the returns() decorator, which takes the expected return type as an argument.
 def returns(return_type):
   # Write a decorator that raises an AssertionError if the
   # decorated function returns a value that is not return_type
