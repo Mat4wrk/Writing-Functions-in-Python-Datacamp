@@ -1,6 +1,6 @@
 @check_everything
 def duplicate(my_list):
-  """Return a new list that repeats the input twice"""
+# Return a new list that repeats the input twice
   return my_list + my_list
 
 t_start = time.time()
