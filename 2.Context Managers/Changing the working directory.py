@@ -1,10 +1,10 @@
 def in_dir(directory):
-  """Change current working directory to `directory`,
-  allow the user to run some code, and change back.
+#   Change current working directory to `directory`,
+#   allow the user to run some code, and change back.
 
-  Args:
-    directory (str): The path to a directory to work in.
-  """
+#   Args:
+#     directory (str): The path to a directory to work in.
+
   current_dir = os.getcwd()
   os.chdir(directory)
 
