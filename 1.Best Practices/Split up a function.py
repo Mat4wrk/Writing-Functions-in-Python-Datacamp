@@ -1,4 +1,4 @@
-"""Write the mean() function."""
+# Write the mean() function.
 def mean(values):
   """Get the mean of a list of values
 
@@ -13,7 +13,7 @@ def mean(values):
   return mean
   
   
-"""Write the median() function."""
+# Write the median() function.
 def median(values):
   """Get the median of a list of values
 
