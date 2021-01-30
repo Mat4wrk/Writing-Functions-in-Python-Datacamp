@@ -1,4 +1,4 @@
-"""Add a keyword that lets us update call_count from inside the function."""
+# Add a keyword that lets us update call_count from inside the function.
 call_count = 0
 
 def my_function():
@@ -15,7 +15,7 @@ for _ in range(20):
   
   
 
-"""Add a keyword that lets us modify file_contents from inside save_contents()."""
+# Add a keyword that lets us modify file_contents from inside save_contents().
 def read_files():
   file_contents = None
   
@@ -35,7 +35,7 @@ def read_files():
 print('\n'.join(read_files()))
 
 
-"""Add a keyword to done in check_is_done() so that wait_until_done() eventually stops looping."""
+# Add a keyword to done in check_is_done() so that wait_until_done() eventually stops looping.
 def wait_until_done():
   def check_is_done():
     # Add a keyword so that wait_until_done() 
